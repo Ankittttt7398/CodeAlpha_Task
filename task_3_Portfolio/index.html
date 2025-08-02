@@ -1,1 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--box icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header class="header">
+        <a href="a" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Education</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Ankit Mishra</h1>
+            <h3>And I'm a <span >Front-End Developer </span></h3>
+            <p> who brings ideas to life with code and design. I build fast, accessible, and user-friendly websites using HTML , CSS and JavaScript.
+            </p>
+
+            <div class="social-media">
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/Ankittttt7398"><i class='bx bxl-github'></i></a>
+                <a href="www.linkedin.com/in/ankit-mishra7398"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="ankit.jpg.jpeg" alt="" class="img">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="ankit.jpg.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Hi! I'm a passionate and curious student currently pursuing <b>Master's of Computer Application</b> at<b> GL Bajaj Institute of Technology and Management</b>.<br> I enjoy building clean, responsive, and user-friendly web applications using HTML, CSS, and JavaScript.
+
+I started learning web development out of curiosity, and it quickly grew into a serious interest. Now, I'm constantly exploring new technologies, improving my skills, and working on projects that challenge me to think creatively and solve real-world problems.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- service section -->
+    <section class="services" id="services">
+        <h2 class="heading"><span>Education</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Master's of Computer Application</h3>
+                <p>GL Bajaj Institute of Technology and Management</p>
+                <p>Greater Noida</p><p>2024-Present</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Bachelor of Computer Application</h3>
+                <p>Rajarshi School of Management and Technology</p><p>Varanasi, Uttar Pradesh</p><p>2021-2023</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Intermediate</h3>
+                <p>Sant Atulanand Residential Academy</p><p>CBSE</p><p>Varanasi, Uttar Pradesh</p><p>2018-2020</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="ankit.jpg.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Portfolio Website</h4>
+                    <p>A fully responsive personal portfolio website designed to showcase my skills and projects. Built with semantic HTML, styled using CSS Flexbox and Grid, and enhanced with interactive JavaScript for smooth user experience.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="ankit.jpg.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Spotify Clone</h4>
+                    <p>A static front-end clone of the Spotify homepage designed to replicate the original look and feel. Built using semantic HTML and styled with CSS, the project focuses on layout accuracy, design consistency, and responsiveness.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="ankit.jpg.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>health Care Management System</h4>
+                    <p>Hospitals/Departments shall be able to enter and Update Data in the Mobile Application </p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact</h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2025 by Codehal | All Rights Reserved.</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+    </section>
+
+</body>
+
+
+<!-- scroll reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- typed js -->
+
+
+<!-- custom js -->
+<script>
+
+
+
+
+    // toggle icon navbar
+    let menuicon = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menuicon.onclick = () => {
+        menuicon.classList.toggle('bx-x');
+        navbar.classList.toggle('active');
+
+    };
+
+
+
+    // scroll sections active links
+    let sections = document.querySelectorAll('section');
+    let navlinks = document.querySelectorAll('header nav a');
+
+    window.onscroll = () => {
+        sections.forEach(sec => {
+            let top = window.scrollY;
+            let offset = sec.offsetTop - 150;
+            let height = sec.offsetHeight;
+            let id = sec.getAttribute('id');
+
+            if (top >= offset && top < offset + height) {
+                navlinks.forEach(links => {
+                    links.classList.remove('active');
+                    document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+                });
+            };
+        });
+
+        // sticky navbar
+        let header = document.querySelector('header');
+
+        header.classList.toggle('sticky', window.scrollY > 100);
+
+        //    remove toggle icon and navbar when click navbar link(scroll)
+
+        menuicon.classList.remove('bx-x');
+        navbar.classList.remove('active');
+
+    };
+
+    // scroll reveal
+    ScrollReveal({
+         reset: true ,
+         distance:'80px',
+         duration:2000,
+         delay:200
+        });
+
+        ScrollReveal().reveal('.home-content , .heading', { origin: 'top' });         
+        ScrollReveal().reveal('.home-img ,.services-container,.portfolio-box,.contact form', { origin: 'bottom' });
+        ScrollReveal().reveal('.home-content h1 , .about-img ', { origin: 'left' });
+        ScrollReveal().reveal('.home-content p , .about-content ', { origin: 'right' });
+
+</script>
+
+</html>
